@@ -2,8 +2,8 @@ import numpy as np
 import pygame
 from objects import *
 
-WIDTH = 800
-HEIGHT = 600
+WIDTH = 640
+HEIGHT = 360
 screen = pygame.display.set_mode((WIDTH,HEIGHT))
 
 pl = Player(WIDTH/2, HEIGHT/2, 45, screen)
