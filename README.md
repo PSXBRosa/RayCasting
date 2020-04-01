@@ -6,3 +6,15 @@ After watching [this](https://www.youtube.com/watch?v=TOEi6T2mtHo&t=973s) video,
 The first file, "firstperson.py" is a 3d rendering of the environment created. The second file, "topview.py" is a top down view of the environment, with visible rays. 
 
 ![](https://i.imgur.com/0rp4pFU.gif)
+
+### Controls:
+
+#### First person view
+
+[w,a,s,d] translation
+[e,q] rotation
+
+#### Top down view
+
+[w,a,s,d] translation
+[mouse wheel] rotation 
