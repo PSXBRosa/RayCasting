@@ -106,7 +106,7 @@ class Player:
 				d = np.linalg.norm(np.array(ponto) - np.array((self.x,self.y)))*cos
 				largura = round(w/len(self.raios)) + correção
 				altura = (-(h-10)*d/w + (h-10))
-				cor = [int(255 - (255*(d**2))/w**2)]*3
+				cor = [int(255 - (255*(d**2))/np.linalg.norm([w,d])**2)]*3
 				posx = -w*(raio.theta - self.thetac - self.fov//2)/(self.fov-1)
 				posy = h/2
 				pygame.draw.rect(self.display, cor, (posx, posy - altura/2, largura, altura))
